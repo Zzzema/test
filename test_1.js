@@ -5,8 +5,9 @@ function askStrings(){
     second = prompt('Second number', 0);
     return [first, second];
 }
-
+//The main function of the algorithm, 
 function main(string1, string2){
+    //Declare inlet variables
     let result = '';
     let singlStr = '';
     for(let index = string2.length - 1; index > -1; index--){
@@ -31,7 +32,9 @@ function numSeparate(numb){
     let second = numb % 10;
     let first = Math.trunc(numb/10);
     return [first, second];
+    
 
+    
 }
 // Addind zeros to the end of the string and return the string.
 function zeros(string, index){
