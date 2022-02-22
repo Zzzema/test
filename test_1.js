@@ -34,11 +34,15 @@ function numSeparate(numb){
     return [first, second];
     
 
-    
+
 }
 // Addind zeros to the end of the string and return the string.
 function zeros(string, index){
     return string.padEnd(string.length + +index, '0');
+
+
+
+    
 }
 
 
